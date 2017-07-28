@@ -1,0 +1,24 @@
+{
+  "name": "marco",
+  "version": "1.0.1",
+  "description": "ui/ux design",
+  "main": "server.js",
+  "scripts": {
+    "test": "run",
+    "start": "node server.js"
+  },
+  "author": "mat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperac1d/sqt-exam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hyperac1d/sqt-exam/issues"
+  },
+  "homepage": "https://github.com/hyperac1d/sqt-exam#readme"
+}
