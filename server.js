@@ -13,8 +13,17 @@ app.get('/', function(req, res){
 });
 
 app.get('/successful-login', function(req, res){
-  res.sendFile(path.join(__dirname, 'views/login.html'));
+  res.sendFile(path.join(__dirname, 'views/edit-profile.html'));
 });
+
+app.get('/registration-form', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/registration.html'));
+});
+
+app.get('/list', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/list-user.html'));
+});
+
 
 
 // app.get('*', function(req, res){

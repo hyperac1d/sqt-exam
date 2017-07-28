@@ -34,3 +34,12 @@ ul.right li {
 div a.brand-logo {
   margin-left: 10px;
 }
+
+div.row a {
+  color: inherit;
+}
+
+p {
+  line-height: 2rem;
+}
+
