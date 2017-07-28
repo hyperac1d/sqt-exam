@@ -43,3 +43,7 @@ p {
   line-height: 2rem;
 }
 
+h4 {
+  text-align: center;
+  border-style: dotted solid;
+}
